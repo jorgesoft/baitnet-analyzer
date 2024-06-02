@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  log_analyzer:
+    build:
+      context: ./log_analyzer
+    env_file:
+      - ./log_analyzer/.env
